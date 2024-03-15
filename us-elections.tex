@@ -1,0 +1,72 @@
+\documentclass[10pt, fleqn, aspectratio=1610,usenames,dvipsnames]{beamer}
+\input{slidePreamble.tex}
+\hypersetup{
+	pdfpagelayout=SinglePage,
+	pdfauthor={janegca},
+	pdfsubject={Hellenistic Astrology},
+    pdfkeywords={astrology, Greek astrology, Hellenistic astrology},
+    pdfcreator={TeXworks with pdfLatex, beamer}
+}
+% -- The Title Slide --
+\title{US Elections}
+\subtitle{An astrological study of past presidential elections}
+	\institute{This study is based on an article on Lee Lehman's site: \href{http://leelehman.com/wp/index.php/2000/09/21/atlanta-group-predicting-future-presidential-elections-from-past-ones/}{Atlanta Group:Predicting Future Presidential Elections from Past Ones}.
+\vspace{1em}
+
+One of the Atlanta Group participants, Penny Shelton, chose Profections as a means of analyzing  candidate charts, the following relies on the same study criteria but uses Placidus vs Regiomontanus houses and Equal House profections vs Regiomontanus House profections. 
+\vspace{1em}
+
+The original study covered 16 elections from 1864 until 2000; I've extended the study to 2024. }
+
+% -- The Presentation Slides --
+\begin{document}
+% slides are contained in frames
+\begin{frame}
+\centering
+\begin{minipage}{0.75\textwidth}
+\titlepage
+\end{minipage}
+\end{frame}
+
+% table of contents
+\AtBeginSection[]{
+	\begin{frame}[t, allowframebreaks]{Outline}
+		\fontsize{7pt}{5pt}\selectfont
+   		\tableofcontents[
+   	  		currentsection,
+   	  		sectionstyle=show/show,
+   	  		subsectionstyle=show/show/hide,
+   	  		subsubsectionstyle=show/show/show/hide] 
+	\end{frame}
+}
+% -------------------------------------------------------------------------
+\section{Criteria}
+\input{criteria}
+\section{Chart Page Layout}
+\input{election-pages}
+\section{Elections}
+%\input{1864}
+%\input{1896}
+%\input{1900}
+%\input{1908}
+%\input{1912}
+%\input{1916}
+%\input{1936}
+%\input{1940}
+%\input{1960}
+%\input{1972}
+%\input{1976}
+%\input{1980}
+%\input{1984}
+%\input{1988}
+%\input{1992}
+%\input{1996}
+%\input{2000}
+%\input{2004}
+%\input{2008}
+\input{2012}
+\input{2016}
+\input{2020}
+\input{initial-conclusions}
+\input{2024}
+\end{document}
